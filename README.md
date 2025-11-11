@@ -8,6 +8,21 @@ A modern, interactive Solana payment dashboard for agent-to-agent transactions w
 
 ## Features
 
+### ⚡ Solana & Phantom Wallet Integration
+- **Phantom wallet connection** with auto-detection
+- **Web3 transaction building** with priority fees and compute units
+- **Smart contract interactions** for X402 payment protocol
+- **Multi-signature support** for complex transactions
+- **Token account management** (SOL, USDC, DXRI)
+
+### 🔧 X402 Payment Processing
+- **Payment intent creation** with escrow support
+- **Agent-to-agent transfers** with 2% platform fee
+- **Transaction metadata** embedding on-chain
+- **Payment verification** and status tracking
+- **Webhook integration** for real-time payment notifications
+- **Refund and cancellation** handling
+
 ### 🚀 Real-Time Transaction Monitor
 - **Live transaction feed** with instant status updates
 - **WebSocket-style simulation** showing pending → confirming → confirmed flow
@@ -60,6 +75,13 @@ A modern, interactive Solana payment dashboard for agent-to-agent transactions w
 - **Drizzle ORM** - Modern TypeScript ORM
 - **PostgreSQL** (Neon) - Production-ready database
 - **In-memory storage** - Development mode with instant startup
+
+### Blockchain & Web3
+- **Solana Web3.js** - Solana blockchain integration
+- **Phantom Wallet Adapter** - Wallet connection and signing
+- **X402 Payment Protocol** - Custom payment smart contracts
+- **Transaction Builder** - Complex transaction composition
+- **Smart Contract SDK** - Program interaction utilities
 
 ### Developer Experience
 - **Full TypeScript** throughout the stack
